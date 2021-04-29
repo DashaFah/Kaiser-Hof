@@ -1,0 +1,49 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 10px sans-serif;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+svg {
+  border-width: 0px;
+  border-color: #bc477b;
+  border-radius: 5px;
+  border-style: solid;
+  background-color: #efefef;
+}
+
+nav, nav a {
+  color: #ffffff;
+}
+
+.primary {
+  background-color: #880e4f;
+}
+
+.secondary {
+  background-color: #009688;
+}
+
+.navbar {
+  background-color: #880e4f;
+}
+
+#footer {
+  background-color: #bdbdbd;
+  color: #ffffff;
+  clear: both;
+}
+
+.noUi-connect {
+  background-color: #880e4f;
+}
+
+/*# sourceMappingURL=theme.css.map */

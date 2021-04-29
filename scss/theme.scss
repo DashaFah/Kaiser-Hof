@@ -1,0 +1,49 @@
+@import "color";
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 10px sans-serif;
+}
+
+p {
+  padding:0;
+  margin:0;
+}
+
+svg {
+  border-width: 0px;
+  border-color: $primary-light;
+  border-radius: 5px;
+  border-style: solid;
+  background-color: $disabled-light;
+}
+
+nav, nav a {
+  color: $foreground-light;
+}
+
+.primary {
+  background-color: $primary;
+}
+
+.secondary {
+  background-color: $secondary;
+}
+
+.navbar{
+  background-color: $primary;
+}
+
+#footer{
+  background-color: $disabled;
+  color: $foreground-light;
+  clear: both;
+}
+
+.noUi-connect{
+  background-color: $primary;
+}

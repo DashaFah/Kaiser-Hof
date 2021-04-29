@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Kaiserhof - InfoVis</title>
+    <link rel="stylesheet" type="text/css" href="/scripts/nouislider/distribute/nouislider.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/theme.css">
+    <link rel="stylesheet" type="text/css" href="../css/familyTree.css">
+</head>
+<body>
+
+<div class="container">
+    <nav class="navbar">
+        <a class="navbar-brand" href="/kaiserhof">Kaiser Hof</a>
+        <button id="resetBtn" type="button" class="btn btn-light">Reset</button>
+    </nav>
+    <div class="mb-4"></div>
+    <div class="row">
+        <div id="bubbles" class="mb-4 p-3 col-lg-6"></div>
+        <div id="familyTree" class="mb-4 p-3 col-lg-6"></div>
+        <div class="mb-4 mt-4 pr-4 pl-4 col-lg-12">
+            <div id="slider"></div>
+        </div>
+    </div>
+
+    <footer id="footer" class="mt-5">
+        <div class="p-4">
+            <h5>Gruppenmitglieder:</h5>
+            <ul>
+                <li>August Oberhauser</li>
+                <li>Sophia Münch</li>
+                <li>Daria Fakhrutdinova</li>
+                <li>Alexander Hiesinger</li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-dtree@2.2.2/dist/dTree.min.js"></script>
+<script src="/scripts/nouislider/distribute/nouislider.js"></script>
+<script type="module" src="../js/kaiserhof.js"></script>
+</body>
+</html>

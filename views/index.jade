@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  .chart
+
+  script(src="https://d3js.org/d3.v5.min.js")
+  script(type='text/javascript' src="/js/client-api.js")
+  script.
+    postData('/api', { table: 'person', selector: '*'}).then(function(res){
+      console.log(res);
+      var data = [res.length, 2, 1];
+
+      d3.select(".chart")
+              .selectAll("div")
+              .data(data)
+              .enter()
+              .append("div")
+              .style("width", function (d) {
+                return d + "px";
+              })
+              .text(function (d) {
+                return d;
+              });
+    });
